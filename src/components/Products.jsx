@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 
 
 // const webImgs = [{img:'./imgs/portfolio_1.jpeg', link:'/details_1'}, {img:'/imgs/portfolio_2.jpeg', link:'/details_2'}, {img:'./imgs/portfolio_3.jpg', link:'/details_3'}]
-const webImgs = [{img:'/imgs/portfolio_2.jpeg', link:'/details_2'}, {img:'./imgs/portfolio_3.jpg', link:'/details_3'},  {img:'./imgs/portfolio_4.jpg', link:'/details_4'}]
+const webImgs = [{img:'./imgs/portfolio_2.jpeg', link:'/details_2'}, {img:'./imgs/portfolio_3.jpg', link:'/details_3'},  {img:'./imgs/portfolio_4.jpg', link:'/details_4'}]
 const appImgs = [{img:'./imgs/webapp_1.jpeg', link:'/appdetails_1'}]
 
 const WorksWrapper = styled("section")({
