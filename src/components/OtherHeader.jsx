@@ -52,7 +52,7 @@ const OtherHeader = () => {
         <Box height={'100%'}>
           {/* fixedのHeaderにIdとScroll要素を使用したスムースはうまく行かなかったので、Headerだけ別処理、Scrollに合わせるため<a>で囲む */}
           {navItems.map(navItem => (
-            <Link key={navItem} to={'/#'+ navItem.toLowerCase() + 'Section'}>
+            <Link key={navItem} to={{pathname:'/', hash:'#' + navItem.toLowerCase() + 'Section'}}>
               <Button sx={{color:'black', height:'100%',px:2}}> {navItem} </Button>
             </Link>
           ))}

@@ -42,10 +42,11 @@ const App = () => {
     <>
       <ThemeProvider theme={theme}>
         <NavItemsProvider>
-          <BrowserRouter basename="/portfolio_site_react">
+          <BrowserRouter basename="/portfolio_site_react/">
+          {/* <BrowserRouter> */}
             <Routes>
               <Route path="/" element={<Home />}></Route>
-              <Route path="/details_1" element={<WorkDetail_1/>}></Route>
+              {/* <Route path="/details_1" element={<WorkDetail_1/>}></Route> */}
               <Route path="/details_2" element={<WorkDetail_2/>}></Route>
               <Route path="/details_3" element={<WorkDetail_3/>}></Route>
               <Route path="/details_4" element={<WorkDetail_4/>}></Route>

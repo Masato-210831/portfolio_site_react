@@ -2,6 +2,7 @@ import React from "react";
 import { Box, styled, Typography, Button, Divider } from "@mui/material";
 import { Link as Scroll, animateScroll } from "react-scroll";
 import { useNavItems } from "../context/NavContext";
+import { useAppBase } from "../context/NavContext";
 
 const WorksWrapper = styled("section")({
   maxWidth: "1080px",
@@ -11,6 +12,7 @@ const WorksWrapper = styled("section")({
 
 
 const Footer = () => {
+  const APP_BASE = useAppBase()
 
    // ナビゲーションの項目
   const navItems = useNavItems()
@@ -60,7 +62,7 @@ const Footer = () => {
         <Box display={'flex'} justifyContent={"space-between"} width={1} sx={{ mt: 3 }}>
           <Box>
             <a href="https://github.com/Masato-210831">
-              <img src="./imgs/GitHub-Mark-Light-32px.png" alt="Git" />
+              <img src={APP_BASE + "imgs/GitHub-Mark-Light-32px.png"} alt="Git" />
             </a>
           </Box>
           <Box>

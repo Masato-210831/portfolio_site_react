@@ -1,6 +1,7 @@
 import { Box} from '@mui/material'
 import {styled} from '@mui/system'
 import React from 'react'
+import { useAppBase } from '../context/NavContext';
 
 const BehindBox = styled('div')({
   width: '640px',
@@ -36,9 +37,12 @@ const SiteName = styled('h1')({
 })
 
 const MainVisual = () => {
+
+  const APP_BASE = useAppBase()
+
   return (
     <Box id='homeSection' width={1} height={'600px'} mt={9} sx={{position:'relative'}}>
-      <img src="./imgs/MainVisual.jpg" alt="MainVisual" style={{objectFit:'cover', position:'absolute', width:'100%', height:'100%'}} />
+      <img src={APP_BASE + "imgs/MainVisual.jpg"} alt="MainVisual" style={{objectFit:'cover', position:'absolute', width:'100%', height:'100%'}} />
       <BehindBox>
       <SiteNameBox>
         <SiteName>Masa’s Portfolio Site</SiteName>

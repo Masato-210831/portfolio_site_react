@@ -6,7 +6,7 @@ import ProductShow from '../components/ProductShow'
 import OtherFooter from '../components/OtherFooter'
 
 
-const data = {name:"DESIGN FOR SMILE", imgPath:"./imgs/portfolio_3.jpg"}
+const data = {name:"DESIGN FOR SMILE", imgPath:"imgs/portfolio_3.jpg"}
 const details = [
   { title: "担当範囲", description: "コーディング" },
   { title: "使用言語", description: "HTML/Sass/Javascript" },

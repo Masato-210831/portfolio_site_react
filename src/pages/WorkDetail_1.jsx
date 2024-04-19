@@ -7,7 +7,9 @@ import OtherFooter from '../components/OtherFooter'
 
 
 
-const data = {name:"コーポレートサイト", imgPath:"./imgs/portfolio_1.jpeg"}
+
+
+const data = {name:"コーポレートサイト", imgPath:"imgs/portfolio_1.jpeg"}
 const details = [
   { title: "担当範囲", description: "コーディング" },
   { title: "使用言語", description: "HTML/Sass/Javascript" },
@@ -32,8 +34,6 @@ const details = [
     description: (
       <Link
         href=" https://masato-210831.github.io/corporate_site_220217/"
-        target="_blank"
-        rel="noopener noreferrer"
       >
          https://masato-210831.github.io/corporate_site_220217/
       </Link>

@@ -6,7 +6,7 @@ import ProductShow from '../components/ProductShow'
 import OtherFooter from '../components/OtherFooter'
 
 
-const data = {name:"初代ポートフォリオサイト", imgPath:"./imgs/portfolio_4.jpg"}
+const data = {name:"初代ポートフォリオサイト", imgPath:"imgs/portfolio_4.jpg"}
 
 // 担当
 const acts = ['デザインカンプの作成', 'コーディング']
