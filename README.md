@@ -1,8 +1,7 @@
-# React + Vite
+仮のポートフォリオサイト
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
+GitHub Pagesがシングルページアプリケーション（SPA）のHTML5 History APIを完全にサポートしていないことから、
+ページ遷移後、更新するとNot Foundになります。  
+このため、Homeページで完結するように変更するか検討中。  
+-> 現在、運用しているポートフォリオサイトはvercelにデプロイしています。
